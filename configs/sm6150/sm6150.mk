@@ -119,7 +119,6 @@ BOARD_VENDOR_KERNEL_MODULES := \
     $(KERNEL_MODULES_OUT)/audio_machine_talos.ko
 endif
 
-BOARD_VENDOR_KERNEL_MODULES += $(shell ls $(KERNEL_MODULES_OUT)/*.ko)
 
 #Audio DLKM
 AUDIO_DLKM := audio_apr.ko
